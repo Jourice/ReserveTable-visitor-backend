@@ -1,4 +1,4 @@
-package ru.reservetable.prototype.reservetableclient;
+package ru.reservetable.prototype.reservetablevisitor;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

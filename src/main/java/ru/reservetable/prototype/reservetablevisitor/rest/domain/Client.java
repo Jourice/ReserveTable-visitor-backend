@@ -1,4 +1,4 @@
-package ru.reservetable.prototype.reservetableclient.rest.domain;
+package ru.reservetable.prototype.reservetablevisitor.rest.domain;
 
 import lombok.Getter;
 import lombok.Setter;

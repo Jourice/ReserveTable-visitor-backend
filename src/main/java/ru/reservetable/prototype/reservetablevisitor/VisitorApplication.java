@@ -1,4 +1,4 @@
-package ru.reservetable.prototype.reservetableclient;
+package ru.reservetable.prototype.reservetablevisitor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -14,10 +14,10 @@ import java.net.UnknownHostException;
 @EnableCaching
 @EnableScheduling
 @SpringBootApplication
-public class ClientApplication {
+public class VisitorApplication {
 
     public static void main(String[] args) throws UnknownHostException  {
-        SpringApplication app = new SpringApplication(ClientApplication.class);
+        SpringApplication app = new SpringApplication(VisitorApplication.class);
         Environment env = app.run(args).getEnvironment();
 
         String protocol = "http";
