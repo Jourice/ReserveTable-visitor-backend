@@ -27,4 +27,10 @@ public class ClientController {
         }
         return new ResponseEntity<>("Hello, world!", HttpStatus.OK);
     }
+
+    @GetMapping("/comindwareg")
+    public ResponseEntity<String> testPriLoadGet() {
+        System.out.println("Hello, logs!");
+        return new ResponseEntity<>("Hello, world!", HttpStatus.OK);
+    }
 }
