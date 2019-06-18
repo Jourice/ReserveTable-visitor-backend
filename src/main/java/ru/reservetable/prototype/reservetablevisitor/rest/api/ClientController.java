@@ -21,6 +21,7 @@ public class ClientController {
 
     @PostMapping("/comindware")
     public ResponseEntity<String> testPriLoad(@RequestBody(required = false) String rpiJson) {
+        System.out.println("Hello, logs!");
         if (rpiJson != null) {
             return new ResponseEntity<>(rpiJson, HttpStatus.OK);
         }
